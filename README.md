@@ -1,2 +1,5 @@
-# erbcolorizer
-vscode extension for erb files.(forked)
+#Erb Colorizer
+
+Just a fork of erabasic , icon was taken from EraSQN.
+
+https://github.com/lupinus-lonely/erabasic

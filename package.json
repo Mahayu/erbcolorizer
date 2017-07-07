@@ -1,0 +1,27 @@
+{
+    "name": "mahayu.erbcolorizer-0.1.0",
+    "displayName": "Erb Colorizer",
+    "description": "Just a Colorizer Fork",
+    "version": "0.1.0",
+    "publisher": "Mahayu",
+    "engines": {
+        "vscode": "^1.10.1"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "icon": "icon/icon.png",
+    "contributes": {
+        "languages": [{
+            "id": "ERB",
+            "aliases": ["erb", "ERB"],
+            "extensions": [".ERB",".erb"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ERB",
+            "scopeName": "source.ERB",
+            "path": "./syntaxes/ERB.tmLanguage"
+        }]
+    }
+}
