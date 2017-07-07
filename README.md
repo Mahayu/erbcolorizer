@@ -1,4 +1,3 @@
-#Erb Colorizer
 
 Just a fork of erabasic , icon was taken from EraSQN.
 
